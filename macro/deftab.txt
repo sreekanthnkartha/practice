@@ -1,0 +1,9 @@
+EX1	MACRO	&A,&B
+-	LDA	?1
+-	STA	?2
+EX2	MACRO	?3
+-	LDA	?1
+-	STA	?3
+-	STA	?2
+-	MEND	-
+-	MEND	-
