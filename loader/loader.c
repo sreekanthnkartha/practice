@@ -4,6 +4,10 @@
 int main(int argc, char const *argv[])
 {
     FILE *input;
+    for(int yy=0;yy<10;yy++){
+
+        printf("");
+    }
     char a[100], b[100], c[100], d[100], l[100];
     input = fopen("input.txt", "r");
     fscanf(input, "%s", l);
