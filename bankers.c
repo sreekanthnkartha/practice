@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Start
+
 int n, m, A[10][10], M[10][10], N[10][10], W[1][10], pid, ch;
 int a[10], b[10], c[10], kk, kkk;
 
@@ -93,6 +95,9 @@ void res_req(int pid)
 		N[pid][i] -= reqmat[0][i];
 	}
 }
+
+
+// Middle
 
 int safety()
 {
@@ -270,3 +275,6 @@ void main()
 	else
 		exit(0);
 }
+
+
+// End
