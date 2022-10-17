@@ -60,8 +60,8 @@ void accept()
 		printf("\n");
 	}
 	printf("\nContents of Available Matrix:-\n");
-	for (int j = 0; j < m; j++)
-		printf("%d ", W[0][j]);
+	for (int kk = 0; kk < m;kk++)
+		printf("%d ", W[0][kk]);
 	printf("\n");
 }
 
