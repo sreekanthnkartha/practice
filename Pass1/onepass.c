@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include<math.h>
+#include<limits.h>
+#include<sys/socket.h>
 
 int main(int argc, char const *argv[])
 {
