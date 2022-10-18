@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+// Driver code
+
 int main(int argc, char const *argv[])
 {
     FILE *input;
@@ -61,7 +64,6 @@ int main(int argc, char const *argv[])
                 }
             }
             d[dd] = '\0';
-            // printf("%s 2 2 2\n",d);
             int k = 12;
             int stsdd = strtol(d, NULL, 16);
             for (int i = k; i < strlen(l);)
@@ -80,3 +82,5 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+
+// END
