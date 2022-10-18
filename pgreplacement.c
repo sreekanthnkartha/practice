@@ -2,6 +2,10 @@
 #include <stdlib.h>
 int pg[100], n, f;
 
+// PageReplacement Algorith
+
+// FCFS
+
 void fcfs()
 {
     int frame[n];
@@ -29,6 +33,8 @@ void fcfs()
     }
     printf("page fault : %i", fault);
 }
+
+// LRU
 
 void lru()
 {
@@ -99,6 +105,8 @@ void lru()
     printf("page fault : %i", fault);
 }
 
+// LFU
+
 void lfu()
 {
     int count[100] = {0}, time[100] = {0};
@@ -164,6 +172,8 @@ void lfu()
     printf("page fault : %i", fault);
 }
 
+// Main
+
 int main(int argc, char const *argv[])
 {
     printf("Enter the no of pages and page and frames:\n");
@@ -178,3 +188,5 @@ int main(int argc, char const *argv[])
     lfu();
     return 0;
 }
+
+// END
