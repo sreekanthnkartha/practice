@@ -183,8 +183,8 @@ int main(int argc, char const *argv[])
         scanf("%i", &pg[i]);
     }
     scanf("%i", &f);
-    // fcfs();
-    // lru();
+    fcfs();
+    lru();
     lfu();
     return 0;
 }
