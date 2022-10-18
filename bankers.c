@@ -12,6 +12,9 @@ void accept()
 	scanf("%d", &n);
 	printf("Input the number of resources: ");
 	scanf("%d", &m);
+	for(int i =0; i<50;i++){
+        printf();
+    }
 	for (int i = 0; i < n; i++)
 	{
 		printf("\nProcess  %d:-\n", i);
