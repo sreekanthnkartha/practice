@@ -20,7 +20,6 @@ int main(int argc, char const *argv[])
     {
         int start=strtol(operand,NULL,16);
         locctr=start;
-        // printf("\n\t%s    %s  %X",label,opcode,locctr);
         fprintf(inter,"\t%s    %s  %X",label,opcode,locctr);
         fscanf(input,"%s\t%s\t%s",label,opcode,operand);      
     }
@@ -36,7 +35,6 @@ int main(int argc, char const *argv[])
             if(strcmp(code,opcode)==0)
             {
                 locctr+=3;
-                // printf("hello");
                 break;
             }
             fscanf(optab, "%s\t%s", code, nemonics);
@@ -60,7 +58,6 @@ int main(int argc, char const *argv[])
                 else
                     locctr+=1;
             }
-            // printf("\n\t%s    %s  %X",label,opcode,locctr);
         fprintf(inter,"%s\t%s\t%s",label,opcode,operand);
         fscanf(input,"%s    %s  %s",label,opcode,operand); 
 
